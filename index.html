@@ -18,12 +18,27 @@
         /* Center all content horizontally */
         header, main {
             text-align: center;
+            padding: 20px; /* Add padding to header and main sections */
         }
 
         /* CSS styles for centering the logo */
         img {
             display: block; /* Ensure the image is treated as a block element */
             margin: 0 auto; /* Center the image horizontally */
+            margin-bottom: 20px; /* Add spacing below the logo */
+        }
+
+        section {
+            margin-bottom: 40px; /* Add spacing between sections */
+            border: 1px solid #ddd; /* Add borders around sections */
+            border-radius: 8px; /* Add rounded corners to sections */
+            background-color: #f9f9f9; /* Add background color to sections */
+            padding: 20px; /* Add padding inside sections */
+        }
+
+        iframe {
+            display: block; /* Ensure iframes are treated as block elements */
+            margin: 0 auto; /* Center iframes horizontally */
         }
     </style>
 </head>
@@ -33,11 +48,20 @@
         <h1>Welcome to UNIPRO</h1>
     </header>
     <main>
-        <iframe src="https://app.sigmacomputing.com/embed/1-7GWnDSOKIVvLxDdWlEiy3m" frameborder="0" width="800" height="600%"></iframe>
+        <section>
+            <h2>Report 1</h2>
+            <iframe src="https://app.sigmacomputing.com/embed/1-7GWnDSOKIVvLxDdWlEiy3m" frameborder="0" width="800" height="600"></iframe>
+        </section>
 
-        <iframe src="https://app.sigmacomputing.com/embed/1-1C4RF9yI0WWcBYBfFpXBj6" frameborder="0" width="800%" height="600%"></iframe>
+        <section>
+            <h2>Report 2</h2>
+            <iframe src="https://app.sigmacomputing.com/embed/1-1C4RF9yI0WWcBYBfFpXBj6" frameborder="0" width="800" height="600"></iframe>
+        </section>
         
-        <iframe src="https://app.sigmacomputing.com/red-pill-analytics/workbook/workbook-3Y9hqCEXYzUOef1RspWYEd?:link_source=share" width="800" height="600" frameborder="0"></iframe>
+        <section>
+            <h2>Report 3</h2>
+            <iframe src="https://app.sigmacomputing.com/red-pill-analytics/workbook/workbook-3Y9hqCEXYzUOef1RspWYEd?:link_source=share" width="800" height="600" frameborder="0"></iframe>
+        </section>
         
         <!-- Other content in the main section -->
         <p>This is a basic web page for UNIPRO demo.</p>
